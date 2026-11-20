@@ -94,7 +94,7 @@ test.bat
 
 **39 regression scenarios pass locally on Java 17.** They cover serialization for all book types, legacy compatibility, Unicode/quoted metadata, persistence, loans/returns, late fines, duplicate IDs, exact matching, active-loan deletion protection, rollback after a simulated write failure, images, actual exports/backups and sorted JTable selections.
 
-The complete GUI compiles, and table selection is tested with Swing components in headless mode. Full visual desktop interaction has not been exercised in this environment. Windows launch scripts and optional Maven packaging are checked separately in CI when available; do not infer visual GUI validation from a passing compiler/test run.
+The complete GUI compiles, and table selection is tested with Swing components in headless mode. Full visual desktop interaction has not been exercised in this environment. All 39 scenarios also pass on GitHub Actions on **Windows and Ubuntu with Java 17 and 21**; optional Maven packaging passes on Ubuntu / Java 17. See [verification evidence](docs/VERIFICATION.md). These checks do not establish visual GUI behavior.
 
 ## Project structure
 
