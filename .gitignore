@@ -1,0 +1,15 @@
+build/
+target/
+bin/
+*.class
+*.log
+.idea/
+.vscode/
+*.iml
+data/*
+!data/.gitkeep
+library-backup*.zip
+library_report.txt
+library-catalogue.csv
+transaction-log.txt
+*.tmp
